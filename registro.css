@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.enlacesPrincipales{
+    display: flex;
+    width: 1115px;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    border-bottom: 4px solid #325F87;
+    position: sticky;
+    }
+    #calendario h1{
+        font-size: 10px;
+    }
+    #calendario a{
+    color: black;
+    }
+    
+    #EnlaceTiempo{
+        font-size: 60px;
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+    }
+    #EnlaceTiempo a{
+        color: #325F87;
+        margin-left: 40px;
+    }
+    
+    #botonesRedes{
+        border: 1px solid;
+        border-color: white;
+        align-items: flex-end;
+    }
+    #botonesRedes a {
+        color: white;
+    }
+    
+    #RedSocial{
+        margin-top: 20px;
+        border: 1px solid;
+        width: 30px;
+        height: 29px;
+        background-color:transparent;
+        border-color: white;
+        border-radius: 10px
+    }
+    #RedSocial img{
+        width: 30px;
+        }
+        .enlacesNoticias{
+            background-color: white;
+            font-size: 12px;
+            width: 1250px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 30px;
+            margin-top: 10px;
+            border-bottom: 1px solid gray;
+            margin-bottom: 20px;
+        }
+        .enlacesNoticias a{
+            color: black;
+        }
+#imagenFondo img{
+    width: 1335px;
+    height: 400px;
+}
+#registro{
+    display: flex;
+    justify-content: center;
+}
+.one{
+    position: absolute;
+    z-index: 4;
+}
+.two{
+    z-index: 5;
+}
+#formulario{
+    margin-top: 100px;
+    background:white;
+    width: 512px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 3px solid;
+}
+#inicioSesion{
+    font-size: 30px;
+}
+#correo{
+    margin-left: 15px;
+    height: 35px;
+    width: 480px;
+    border-radius: 15px;
+}
+#contraseña{
+    margin-left: 15px;
+    height: 35px;
+    width: 480px;
+    border-radius: 15px;
+}
+#botonEnviar{
+    border-radius: 10px;
+}
