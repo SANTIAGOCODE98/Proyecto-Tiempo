@@ -249,7 +249,47 @@ display: contents;
 }
 
 
-/* @media (max-width: 375px) {
-    .TemasDelDia {
+@media(max-width: 360px){
+    .TemasDelDia{
+        width: 100%;
+        margin-left: 0px;
     }
-} */
+    #articulo1{
+        background-color: aqua;
+        width: 270px; 
+    }
+    #articuloDetalles{
+       display: block;
+       margin-left: 0px;
+    }
+    #articuloDetalles img {
+        margin-left: 0px;
+     }
+    #articulosAdicionales{
+    display: grid;
+    margin: auto;
+    }
+    #primerasDosAmpliaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    #primerasDosAmpliaciones a{
+    background-color: aqua;
+    width: 175px;
+    }
+    
+    #tresUltimasAmpliaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+    padding: 20px;
+    }
+    #tresUltimasAmpliaciones a{
+        background-color: aqua;
+        width: 175px;
+        }
+}
