@@ -3,7 +3,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -75,6 +74,10 @@ font-family: 'Roboto Slab', serif;
     margin-top: 2px;
     margin-left: 1px;
 }
+#hamburguesa-responsive{
+    width: 28PX;
+    height: 25px;
+}
 #suscripcion{
     width: 220px;
     height: 29px;
@@ -94,6 +97,12 @@ font-family: 'Roboto Slab', serif;
     border-radius: 10px;
     font-family: 'Roboto Slab', serif;
 }
+#estrella-responsive{
+    width: 26px;
+    height: 27px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
 #usuario{
     border: 1px solid;
     width: auto;
@@ -103,6 +112,11 @@ font-family: 'Roboto Slab', serif;
     border-radius: 10px;
     color: white;
     font-family: 'Roboto Slab', serif;
+}
+#usuario-responsive{
+    width: 26px;
+    height: 27px;
+    border-radius: 10px;
 }
 #parteIzquierda{
     display: flex;
@@ -137,7 +151,6 @@ color: black;
 
 #EnlaceTiempo{
     font-size: 60px;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
 }
@@ -145,7 +158,6 @@ color: black;
     color: #325F87;
     margin-left: 40px;
 }
-
 #botonesRedes{
     border: 1px solid;
     border-color: white;
@@ -187,9 +199,6 @@ color: black;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    /* display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-start; */
 }
 .contenedorPrincipal img{
     height: 300px;
@@ -248,11 +257,53 @@ display: contents;
     margin-top: 10px;
 }
 
-
-@media(max-width: 360px){
+@media(min-width: 480px){
+    #hamburguesa-responsive{
+        display: none;
+    }
+    #EnlaceTiempoResponsive{
+        display: none;
+    }
+    #usuario-responsive{
+        display: none;
+    }
+    #estrella-responsive{
+        display: none;
+    }
+}
+@media(max-width: 480px){
     .TemasDelDia{
         width: 100%;
         margin-left: 0px;
+        display: none;
+    }
+    .enlacesPrincipales{
+    display: none;
+    }
+    .enlacesNoticias{
+        display: none;
+    }
+    #span-contenedor{
+        margin-top: 20px;
+    }
+    #buscar{
+        display: none;
+    }
+    #secciones{
+        display: none;
+    }
+    #EnlaceTiempoResponsive{
+        margin: auto;
+    }
+    #usuario{
+        display: none;
+    }
+    #estrellaNoticias{
+        display: none;
+    }
+    #suscripcion{
+        font-size: 9px;
+        width: 85px;
     }
     #articulo1{
         background-color: aqua;
@@ -264,17 +315,18 @@ display: contents;
     }
     #articuloDetalles img {
         margin-left: 0px;
+        width: 360px;   
      }
     #articulosAdicionales{
     display: grid;
     margin: auto;
+    margin-left: 30px;
     }
     #primerasDosAmpliaciones{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 70px;
-        margin-top: 30px;
+        margin: auto;
     }
     #primerasDosAmpliaciones a{
     background-color: aqua;
@@ -285,8 +337,7 @@ display: contents;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 70px;
-    padding: 20px;
+    margin: auto;
     }
     #tresUltimasAmpliaciones a{
         background-color: aqua;
