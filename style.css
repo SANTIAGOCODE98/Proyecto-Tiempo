@@ -306,7 +306,6 @@ display: contents;
         width: 85px;
     }
     #articulo1{
-        background-color: aqua;
         width: 270px; 
     }
     #articuloDetalles{
@@ -329,7 +328,6 @@ display: contents;
         margin: auto;
     }
     #primerasDosAmpliaciones a{
-    background-color: aqua;
     width: 175px;
     }
     
@@ -340,7 +338,6 @@ display: contents;
     margin: auto;
     }
     #tresUltimasAmpliaciones a{
-        background-color: aqua;
         width: 175px;
         }
 }
