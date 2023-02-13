@@ -7,6 +7,99 @@
     margin: 0;
     text-decoration: none;
 }
+.encabezado{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#325F87;
+    border-radius: 2px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buscar{
+border: 1px solid;
+width: 33px;
+height: 29px;
+background-color:#325F87;
+border-color: white;
+border-radius: 10px;
+font-family: 'Roboto Slab', serif;
+}
+#secciones{
+    border: 1px solid;
+    width: 120px;
+    height: 29px;
+    color: white;
+    background-color: #325F87;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: -2px;
+}
+#secciones img{
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+#hamburguesa-responsive{
+    width: 28PX;
+    height: 25px;
+}
+#suscripcion{
+    width: 220px;
+    height: 29px;
+    color: white;
+    background-color: #CD2ECD;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+#estrellaNoticias{
+    border: 1px solid;
+    width: 120px;
+    height: 29px;
+    color: white;
+    background-color:aqua;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+#estrella-responsive{
+    width: 26px;
+    height: 27px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+#usuario{
+    border: 1px solid;
+    width: auto;
+    height: 29px;
+    background-color: #325F87;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+#usuario-responsive{
+    width: 26px;
+    height: 27px;
+    border-radius: 10px;
+}
+#parteIzquierda{
+    display: flex;
+    justify-content: center;
+}
+#parteIzquierda a{
+    color: white;
+}
+#parteDerecha{
+    display: flex;
+}
+#parteDerecha a{
+color: white;
+}
 .enlacesPrincipales{
     display: flex;
     width: 1115px;
@@ -113,4 +206,53 @@
 }
 #botonEnviar{
     border-radius: 10px;
+}
+@media(min-width: 480px){
+.encabezado{
+    display: none;
+}
+}
+@media(max-width: 480px){
+    .TemasDelDia{
+        width: 100%;
+        margin-left: 0px;
+        display: none;
+    }
+    .enlacesPrincipales{
+    display: none;
+    }
+    .enlacesNoticias{
+        display: none;
+    }
+.one{
+    display: none;
+}
+.two{
+    display: none;
+}
+#formulario{
+    display: none;
+}
+#span-contenedor{
+    margin-top: 20px;
+}
+#buscar{
+    display: none;
+}
+#secciones{
+    display: none;
+}
+#EnlaceTiempoResponsive{
+    margin: auto;
+}
+#usuario{
+    display: none;
+}
+#estrellaNoticias{
+    display: none;
+}
+#suscripcion{
+    font-size: 9px;
+    width: 85px;
+}
 }

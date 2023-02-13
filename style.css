@@ -39,8 +39,8 @@ color: #325F87;
    }
 
    .encabezado{
-    margin-top: -5px;
-    margin-bottom: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-color:#325F87;
     border-radius: 2px;
     height: 53px;
@@ -250,16 +250,7 @@ margin-left: 60px;
     text-decoration: none;
     color: black;
 }
-#primerasDosAmpliaciones{
-    display: flex;
-    margin-left: 70px;
-    margin-bottom: 10px;
-}
-#tresUltimasAmpliaciones{
-    display: flex;
-    margin-left: 10px;
-    margin-top: 10px;
-}
+
 
 @media(min-width: 480px){
     #hamburguesa-responsive{
@@ -325,24 +316,8 @@ margin-left: 60px;
     margin: auto;
     margin-left: 30px;
     }
-
-    /* #primerasDosAmpliaciones{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-    #primerasDosAmpliaciones a{
-    width: 175px;
-    }
-    
-    #tresUltimasAmpliaciones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    }
-    #tresUltimasAmpliaciones a{
-        width: 175px;
-        } */
+#ampliacionNoticias{
+    margin-top: 40px;
+    width: 270px;
+}
 }
