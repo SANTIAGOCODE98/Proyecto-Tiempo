@@ -229,7 +229,11 @@ color: black;
     color: black;
 }
 #ampliacionNoticias{
-display: contents;
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 440px;
+gap: 10px;
+margin-left: 60px;
 }
 #ampliacionNoticias span{
     margin-left: 20px;
@@ -321,10 +325,7 @@ display: contents;
     margin: auto;
     margin-left: 30px;
     }
-    #articulos-complementarios{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+
     /* #primerasDosAmpliaciones{
         display: flex;
         flex-direction: column;
