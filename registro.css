@@ -186,26 +186,31 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border-radius: 20px;
     border: 3px solid;
+    align-items: center;
+}
+#formulario p{
+    width: 52%;
 }
 #inicioSesion{
     font-size: 30px;
+    font-weight: bold;
 }
 #correo{
     margin-left: 15px;
     height: 35px;
-    width: 480px;
-    border-radius: 15px;
+    width: 290px;
+    border-radius: 0px;
 }
 #contraseña{
     margin-left: 15px;
     height: 35px;
-    width: 480px;
-    border-radius: 15px;
+    width: 290px;
+    border-radius: 0px;
 }
 #botonEnviar{
-    border-radius: 10px;
+    border-radius: 2px;
+    width: 20%;
 }
 @media(min-width: 480px){
 .encabezado{
@@ -224,14 +229,11 @@ color: white;
     .enlacesNoticias{
         display: none;
     }
-.one{
-    display: none;
+#parteIzquierda{
+    gap: 12px;
 }
-.two{
-    display: none;
-}
-#formulario{
-    display: none;
+#parteDerecha{
+    gap: 6px;
 }
 #span-contenedor{
     margin-top: 20px;
@@ -251,8 +253,49 @@ color: white;
 #estrellaNoticias{
     display: none;
 }
+#estrella-responsive{
+    margin-right: 20px;
+}
+#usuario-responsive{
+    margin-left: 0px;
+    border-radius: 8px;
+}
 #suscripcion{
     font-size: 9px;
     width: 85px;
 }
+#imagenFondo img{
+    width: 100%;
+    height: 500px;
+}
+#formulario{
+    width: 84%;
+    height: 375px;
+    margin-top: 40px;
+    align-items: center;
+    border-radius: 0;
+}
+#formulario p{
+    width: 80%;
+    color: gray;
+}
+#inicioSesion{
+    margin-left: 0px;
+    font-weight: bold;
+}
+#correo{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+#contraseña{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+#botonEnviar{
+    width: 36%;
+    background-color: #325F87;
+}
+
 }

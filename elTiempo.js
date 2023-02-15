@@ -1,4 +1,4 @@
-// alert("te gustaria recibir notifiaciones?")
+alert("te gustaria recibir notifiaciones?")
 
 function redirigir(){
  location.href = "./suscripcion.html";
