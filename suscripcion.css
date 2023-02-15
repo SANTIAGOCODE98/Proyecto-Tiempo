@@ -7,6 +7,16 @@
     margin: 0;
     text-decoration: none;
 }
+.encabezado{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#325F87;
+    border-radius: 2px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .enlacesPrincipales{
     display: flex;
     width: 1115px;
@@ -16,108 +26,234 @@
     margin-left: 80px;
     border-bottom: 4px solid #325F87;
     position: sticky;
-    }
-    #calendario h1{
-        font-size: 10px;
-    }
-    #calendario a{
+}
+#calendario h1{
+    font-size: 10px;
+}
+#calendario a{
     color: black;
+}
+#EnlaceTiempo{
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+#EnlaceTiempo a{
+    color: #325F87;
+    margin-left: 40px;
     }
+#hamburguesa-responsive{
+    width: 28PX;
+    height: 25px;
+}
+#suscripcion{
+    width: 220px;
+    height: 29px;
+    color: white;
+    background-color: #CD2ECD;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+#estrellaNoticias{
+    border: 1px solid;
+    width: 120px;
+    height: 29px;
+    color: white;
+    background-color:aqua;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+#estrella-responsive{
+    width: 26px;
+    height: 27px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+#usuario{
+    border: 1px solid;
+    width: auto;
+    height: 29px;
+    background-color: #325F87;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+#usuario-responsive{
+    width: 26px;
+    height: 27px;
+    border-radius: 10px;
+}
+#parteIzquierda{
+    display: flex;
+    justify-content: center;
+}
+#parteIzquierda a{
+    color: white;
+}
+#parteDerecha{
+    display: flex;
+}
+#parteDerecha a{
+color: white;
+}
+#botonesRedes{
+    border: 1px solid;
+    border-color: white;
+    align-items: flex-end;
+}
+#botonesRedes a {
+    color: white;
+}
     
-    #EnlaceTiempo{
-        font-size: 60px;
-        /* font-family: 'Poppins', sans-serif; */
-        font-family: 'Roboto Slab', serif;
-        font-weight: 500;
-    }
-    #EnlaceTiempo a{
-        color: #325F87;
-        margin-left: 40px;
-    }
-    
-    #botonesRedes{
-        border: 1px solid;
-        border-color: white;
-        align-items: flex-end;
-    }
-    #botonesRedes a {
-        color: white;
-    }
-    
-    #RedSocial{
-        margin-top: 20px;
-        border: 1px solid;
-        width: 30px;
-        height: 29px;
-        background-color:transparent;
-        border-color: white;
-        border-radius: 10px
-    }
-    #RedSocial img{
-        width: 30px;
-        }
-        .enlacesNoticias{
-            background-color: white;
-            font-size: 12px;
-            width: 1250px;
-            display: flex;
-            justify-content: space-between;
-            margin-left: 30px;
-            margin-top: 10px;
-            border-bottom: 1px solid gray;
-            margin-bottom: 20px;
-        }
-        .enlacesNoticias a{
-            color: black;
-        }
-        #verificacionSuscriptor{
-            display: flex;
-            justify-content: center;
-        }
-        .cabecera{
-            background:#134BBB;
-            width: 1365px;
-            height: 64px;
-        }
-        #promocion p{
-            display: flex;
-            justify-content: center;
-            font-size: 44px;
-            color: white;
-        }
-        #tarjetaspago{
-            background: antiquewhite;
-            width: 502px;
-            height: 340px;
-            margin-top: 60px;
-            margin-left: 20px;
-        }
-        .precios{
-            display: flex;
-            justify-content: space-evenly;
-            background: #134BBB;
-            height: 295px;
-        }
-        #tarjetas{
-            background: white;
-            width: 305px;
-            height: 395px;
-            border-radius: 20px;
-            border: 2px solid #9e9e9e;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-        #tarjetaCredito{
-            width: 178px;
-            border-radius: 20px;
-            height: 40px;
-        }
-        #PSE{
-            width: 178px;
-            border-radius: 20px;
-            height: 40px;
-        }
-   
+#RedSocial{
+    margin-top: 20px;
+    border: 1px solid;
+    width: 30px;
+    height: 29px;
+    background-color:transparent;
+    border-color: white;
+    border-radius: 10px
+}
+#RedSocial img{
+width: 30px;
+}
+.enlacesNoticias{
+    background-color: white;
+    font-size: 12px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.enlacesNoticias a{
+    color: black;
+}
+#verificacionSuscriptor{
+    display: flex;
+    justify-content: center;
+}
+.cabecera{
+    background:#325F87;
+    width: 1365px;
+    height: 64px;
+}
+#promocion p{
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    color: white;
+}
+#tarjetaspago{
+    background: antiquewhite;
+    width: 502px;
+    height: 340px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.precios{
+    display: flex;
+    justify-content: space-evenly;
+    background:#325F87;
+    height: 295px;
+}
+#tarjetas{
+    background: white;
+    width: 305px;
+    height: 395px;
+    border-radius: 20px;
+    border: 2px solid #9e9e9e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#tarjetaCredito{
+    width: 178px;
+    border-radius: 12px;
+    height: 28px;
+}
+#PSE{
+    width: 178px;
+    border-radius: 12px;
+    height: 28px;
+}
+@media(min-width: 480px){
+.encabezado{
+    display: none;
+}
+}
+@media(max-width: 480px){
+.cabecera{
+    background:#325F87;
+    width: 100%;
+    height: 30px;
+}
+.TemasDelDia{
+    width: 100%;
+    margin-left: 0px;
+    display: none;
+}
+.enlacesPrincipales{
+    display: none;
+}
+.enlacesNoticias{
+    display: none;
+}
+#parteIzquierda{
+    gap: 12px;
+}
+#parteDerecha{
+    gap: 6px;
+}
+#span-contenedor{
+    margin-top: 20px;
+}
+#buscar{
+    display: none;
+}
+#secciones{
+    display: none;
+}
+#EnlaceTiempoResponsive{
+    margin: auto;
+}
+#usuario{
+    display: none;
+}
+#estrellaNoticias{
+    display: none;
+}
+#estrella-responsive{
+    margin-right: 20px;
+}
+#usuario-responsive{
+    margin-left: 0px;
+    border-radius: 8px;
+}
+#suscripcion{
+    font-size: 9px;
+    width: 85px;
+}
+#promocion p{
+    font-size: 15px;
+    width: 100%;
+}
+.precios{
+    display: grid;
+    gap: 20px;
+}
+#tarjetas{
+    width: 280px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+
+            }
         
